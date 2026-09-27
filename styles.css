@@ -25,3 +25,19 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 .carousel-dots{position:absolute;z-index:4;left:50%;bottom:16px;transform:translateX(-50%);display:flex;gap:8px}
 .carousel-dots button{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.55)}
 .carousel-dots button.active{background:#fff;transform:scale(1.25)}
+
+/* Case gallery */
+.case-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.case-card{margin:0;background:#fff;border:1px solid #e8e3dc;border-radius:22px;overflow:hidden;box-shadow:0 10px 28px rgba(13,27,42,.07)}
+.case-card img,.case-bg{display:block;width:100%;height:300px;object-fit:cover;background-size:cover;background-position:center}
+.case-card figcaption{padding:18px 20px 20px}
+.case-card figcaption strong,.case-card figcaption span{display:block}
+.case-card figcaption strong{font-size:1rem;color:var(--navy)}
+.case-card figcaption span{font-size:.82rem;color:var(--muted);margin-top:4px}
+.case-bg.one{background-image:url('assets/ky-project-1.webp')}
+.case-bg.two{background-image:url('assets/ky-opener.webp')}
+.case-bg.three{background-image:url('assets/ky-van.webp')}
+.case-bg.five{background-image:url('assets/ky-project-3.webp')}
+.case-bg.six{background-image:url('assets/ky-project-4.webp')}
+@media(max-width:900px){.case-gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.case-gallery{grid-template-columns:1fr}.case-card img,.case-bg{height:280px}}
