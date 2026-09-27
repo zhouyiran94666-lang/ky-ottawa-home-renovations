@@ -4,3 +4,7 @@
 .garage-split{background-image:url('assets/ky-opener.webp')}
 
 .ky-gallery{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:16px}.ky-shot{min-height:330px;border-radius:22px;background-position:center;background-size:cover;box-shadow:var(--shadow)}.ky-shot.one{background-image:url('assets/ky-project-1.webp')}.ky-shot.two{background-image:url('assets/ky-opener.webp')}.ky-shot.three{background-image:url('assets/ky-van.webp')}@media(max-width:800px){.ky-gallery{grid-template-columns:1fr}.ky-shot{min-height:260px}}
+
+/* Make click-to-call CTAs reliably tappable on mobile */
+a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:manipulation;-webkit-tap-highlight-color:rgba(216,155,74,.25)}
+.hero-actions{position:relative;z-index:20}
