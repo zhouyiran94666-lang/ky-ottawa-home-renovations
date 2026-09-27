@@ -41,3 +41,9 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 .case-bg.six{background-image:url('assets/ky-project-4.webp')}
 @media(max-width:900px){.case-gallery{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.case-gallery{grid-template-columns:1fr}.case-card img,.case-bg{height:280px}}
+
+/* Homepage project carousel */
+.hero-gallery{position:relative;transition:background-image .35s ease;background-position:center;background-size:cover}
+.gallery-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.9);color:#0d1b2a;font-size:2rem;line-height:1;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.gallery-prev{left:16px}.gallery-next{right:16px}.gallery-dots{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;gap:8px;z-index:5}.gallery-dot{width:9px;height:9px;border-radius:50%;border:0;background:rgba(255,255,255,.55);padding:0;cursor:pointer}.gallery-dot.active{background:white;transform:scale(1.25)}
+@media(max-width:640px){.gallery-arrow{width:42px;height:42px}.gallery-prev{left:10px}.gallery-next{right:10px}}
