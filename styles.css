@@ -61,3 +61,6 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 
 /* Product catalogue sections */
 .product-options{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px}.product-options>div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px}.product-options h3{margin:0 0 8px;color:var(--navy)}.product-options p,.catalog-note{color:var(--muted)}@media(max-width:700px){.product-options{grid-template-columns:1fr}}
+
+/* Contact email CTA */
+.contact-email{margin-top:22px}.contact-email strong{display:block;margin-bottom:10px}.contact-email a{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;border-radius:999px;background:#fff;color:var(--navy);font-weight:800;text-decoration:none;box-shadow:0 10px 24px rgba(0,0,0,.12);transition:transform .2s ease,box-shadow .2s ease}.contact-email a:hover{transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.16)}@media(max-width:640px){.contact-email a{width:100%;padding:0 14px;font-size:.95rem}}
