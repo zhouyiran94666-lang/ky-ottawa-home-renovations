@@ -191,3 +191,8 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
   .selection-gallery-section .section-head>div:first-child{flex:0 0 auto;min-width:max-content}
   .selection-gallery-section .section-head h2{white-space:nowrap;font-size:clamp(2.2rem,3.35vw,3.7rem)}
 }
+
+/* Garage door window design showcase */
+.window-design-section{background:#fff}
+.window-design-image{overflow:hidden;border-radius:22px;background:#fff;border:1px solid var(--line);box-shadow:0 16px 45px rgba(20,30,70,.10)}
+.window-design-image img{display:block;width:100%;height:auto}
