@@ -70,3 +70,6 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 
 /* Clean footer contact layout: no orphan separators */
 .footer-contact{display:flex;flex-direction:column;gap:10px;margin-top:14px}.footer-contact a{display:block;width:max-content;max-width:100%;text-decoration:none}
+
+/* Made in Canada product section */
+.canada-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.made-canada .service-card{border-top:4px solid var(--navy)}@media(max-width:760px){.canada-grid{grid-template-columns:1fr}}
