@@ -184,3 +184,10 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
 .model-guide-section{background:#f7f9fc}
 .model-guide-image{overflow:hidden;border-radius:22px;background:#fff;box-shadow:0 16px 45px rgba(20,30,70,.10);border:1px solid var(--line)}
 .model-guide-image img{display:block;width:100%;height:auto}
+
+/* Keep selection section headings on one line on desktop */
+@media(min-width:981px){
+  .selection-gallery-section .section-head{grid-template-columns:auto 1fr}
+  .selection-gallery-section .section-head>div:first-child{flex:0 0 auto;min-width:max-content}
+  .selection-gallery-section .section-head h2{white-space:nowrap;font-size:clamp(2.2rem,3.35vw,3.7rem)}
+}
