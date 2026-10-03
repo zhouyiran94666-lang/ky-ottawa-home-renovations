@@ -154,3 +154,12 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
 .sw-white{background:#f7f5ed}.sw-almond{background:#eee4c8}.sw-sandstone{background:#d8d0bb}.sw-charcoal{background:#756c6d}.sw-brown{background:#806354}.sw-darkbrown{background:#4b4039}.sw-black{background:#36383e}.sw-woodgrain{background:#a18a72}.sw-walnutplank{background:#955a3e}.sw-walnut{background:#60483a}.sw-blackmatt{background:#454542}.wood{border-radius:4px;background-size:100% 100%}
 .option-note{margin-top:24px}
 @media(max-width:900px){.colour-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:600px){.colour-grid{grid-template-columns:repeat(2,1fr);gap:14px}.colour-card{padding:14px}}
+
+/* Tighter desktop navigation spacing */
+@media(min-width:981px){
+  .nav{gap:16px}
+  .brand{min-width:0;flex:0 1 330px}
+  .nav-links{flex:1;justify-content:flex-end;gap:14px;font-size:.88rem}
+  .nav-links>a:not(.btn){padding:8px 5px}
+  .nav-links .btn{margin-left:4px;padding:12px 17px;white-space:nowrap}
+}
