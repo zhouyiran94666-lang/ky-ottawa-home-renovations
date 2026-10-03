@@ -142,3 +142,15 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
 .canada-feature-item:first-child .canada-icon svg{display:none}
 .canada-feature-item:first-child .canada-icon:after{content:"🇨🇦";font-size:42px;line-height:1}
 @media(max-width:800px){.canada-feature-item:first-child .canada-icon:after{font-size:32px}}
+
+/* Garage door options */
+.options-hero{background:linear-gradient(120deg,#fff,#f2f6fc)}
+.option-section{background:#fff}
+.colour-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:36px}
+.colour-card{padding:22px;border:1px solid var(--line);border-radius:18px;background:#fff;text-align:center}
+.colour-card h3{margin:14px 0 0;font-size:1rem}
+.swatch{display:block;width:100%;aspect-ratio:1.18;border-radius:44% 44% 52% 52%;border:1px solid rgba(20,30,55,.12);box-shadow:inset 0 0 22px rgba(255,255,255,.25)}
+.swatch:after{content:"";display:block;width:100%;height:100%;border-radius:inherit;background:repeating-linear-gradient(8deg,transparent 0 5px,rgba(255,255,255,.12) 6px,transparent 7px)}
+.sw-white{background:#f7f5ed}.sw-almond{background:#eee4c8}.sw-sandstone{background:#d8d0bb}.sw-charcoal{background:#756c6d}.sw-brown{background:#806354}.sw-darkbrown{background:#4b4039}.sw-black{background:#36383e}.sw-woodgrain{background:#a18a72}.sw-walnutplank{background:#955a3e}.sw-walnut{background:#60483a}.sw-blackmatt{background:#454542}.wood{border-radius:4px;background-size:100% 100%}
+.option-note{margin-top:24px}
+@media(max-width:900px){.colour-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:600px){.colour-grid{grid-template-columns:repeat(2,1fr);gap:14px}.colour-card{padding:14px}}
