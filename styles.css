@@ -121,3 +121,11 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
 .canada-feature-item h3{font-size:1.45rem;line-height:1.2;margin:8px 0 16px;color:#11163f}
 .canada-feature-item p{margin:0;color:#607894;font-size:1.05rem;line-height:1.65}
 @media(max-width:800px){.canada-feature{padding:64px 0}.canada-feature:before{background-image:linear-gradient(rgba(255,255,255,.92),rgba(248,251,255,.92)),url("https://commons.wikimedia.org/wiki/Special:FilePath/Parliament%20Hill%2C%20Ottawa.jpg?width=1000");background-position:center}.canada-feature:after,.canada-flag-bg{opacity:.45}.canada-feature h2{font-size:clamp(2.6rem,12vw,4rem)}.canada-lead{font-size:1rem;margin-bottom:40px}.canada-feature-grid{grid-template-columns:1fr}.canada-feature-item{grid-template-columns:68px 1fr;gap:18px;padding:0 0 30px}.canada-feature-item+.canada-feature-item{border-left:0;border-top:1px solid #d8e1ed;padding:30px 0 0}.canada-icon{width:62px;height:62px}.canada-icon svg{width:38px;height:38px}}
+
+/* Canadian flag overlay */
+.canada-feature:after{display:none!important}
+.canada-flag-bg{position:absolute;z-index:-1;right:2.5%;top:18px;width:430px;height:220px;display:grid;grid-template-columns:1fr 2fr 1fr;background:rgba(255,255,255,.36);clip-path:none;transform:rotate(-7deg);opacity:.22;filter:blur(.2px)}
+.canada-flag-bg .flag-bar{background:#d52b1e}
+.canada-flag-bg .flag-leaf{display:flex;align-items:center;justify-content:center;background:#fff}
+.canada-flag-bg .flag-leaf svg{width:112px;height:112px}
+@media(max-width:800px){.canada-flag-bg{right:-100px;top:35px;width:320px;height:164px;opacity:.14}}
