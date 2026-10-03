@@ -64,3 +64,6 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 
 /* Contact email CTA */
 .contact-email{margin-top:22px}.contact-email strong{display:block;margin-bottom:10px}.contact-email a{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;border-radius:999px;background:#fff;color:var(--navy);font-weight:800;text-decoration:none;box-shadow:0 10px 24px rgba(0,0,0,.12);transition:transform .2s ease,box-shadow .2s ease}.contact-email a:hover{transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.16)}@media(max-width:640px){.contact-email a{width:100%;padding:0 14px;font-size:.95rem}}
+
+/* Match email CTA to the Call button */
+.contact-email a{background:var(--accent)!important;color:#fff!important;box-shadow:0 12px 28px rgba(48,51,154,.24)!important;min-height:54px;padding:0 24px;border-radius:999px;font-weight:800}
