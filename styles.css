@@ -224,3 +224,7 @@ linear-gradient(110deg,#fff 0%,#fff 45%,#f2f7fd 100%)}
 /* Final window-design artwork */
 .window-design-image-live{display:block!important;margin-top:34px;border:0;box-shadow:none;border-radius:18px;overflow:hidden;background:#fff}
 .window-design-image-live img{display:block;width:100%;height:auto}
+
+/* Final windows insert and glass catalogue */
+.insert-glass-section{background:#fff}
+.insert-glass-artwork{display:block;width:100%;height:auto;border-radius:18px}
