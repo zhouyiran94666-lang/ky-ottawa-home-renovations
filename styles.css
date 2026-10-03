@@ -73,3 +73,17 @@ a[href^="tel:"]{position:relative;z-index:60;pointer-events:auto;touch-action:ma
 
 /* Made in Canada product section */
 .canada-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.made-canada .service-card{border-top:4px solid var(--navy)}@media(max-width:760px){.canada-grid{grid-template-columns:1fr}}
+
+/* Full-width Canadian quality feature */
+.canada-feature{position:relative;overflow:hidden;padding:88px 0;background:linear-gradient(110deg,#fff 0%,#f7f9fd 52%,#edf3fb 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.canada-feature-inner{position:relative;z-index:2}
+.canada-feature .kicker{margin-bottom:16px}
+.canada-feature h2{font-size:clamp(2.4rem,5vw,4.7rem);line-height:1.02;margin:0 0 48px;color:var(--ink);letter-spacing:-.04em}
+.canada-feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.canada-feature-item{display:grid;grid-template-columns:72px 1fr;gap:22px;padding:8px 46px 8px 0;align-items:start}
+.canada-feature-item+ .canada-feature-item{border-left:1px solid var(--line);padding-left:46px;padding-right:0}
+.canada-feature-item h3{font-size:1.35rem;margin:4px 0 12px;color:var(--ink)}
+.canada-feature-item p{margin:0;color:var(--muted);font-size:1.05rem;line-height:1.7}
+.canada-icon{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#eef3fb;border:1px solid #dbe4f2;font-size:2rem;color:var(--navy)}
+.canada-bg-mark{position:absolute;right:5%;top:-55px;font-size:280px;opacity:.045;filter:grayscale(1);transform:rotate(8deg);user-select:none}
+@media(max-width:800px){.canada-feature{padding:62px 0}.canada-feature h2{margin-bottom:34px}.canada-feature-grid{grid-template-columns:1fr}.canada-feature-item{grid-template-columns:56px 1fr;padding:0 0 28px;gap:16px}.canada-feature-item+ .canada-feature-item{border-left:0;border-top:1px solid var(--line);padding:28px 0 0}.canada-icon{width:52px;height:52px;font-size:1.55rem}.canada-bg-mark{font-size:190px;right:-25px}}
